@@ -1,21 +1,21 @@
 /* 1- Creamos una lista de productos ofrecidos por la tienda
 2- Damos la bienvenida al mercado online!
-3- Agregamos una funcón que nos permita agregar un producto de la tienda al carrito con una cantidad específica
+3- Agregamos una función que nos permita agregar un producto de la tienda al carrito con una cantidad específica
 4- Mostramos los items del carrito y la suma total final de los productos agregados
 5- Mostramos la lista de productos para elegir
  */
 
 //1
 const productos = [
-  new Producto('ProPlan Gatos Adultos - 7.5kg', 22000),
-  new Producto('ProPlan Gatos Sterilized - 7.5kg', 27000),
-  new Producto('Royal Canin Gatos Cachorros - 15kg', 55000),
-  new Producto('Arena aglomerante - 4kg', 2500),
-  new Producto('Pouch Royal Canin sabor salmón', 550)
+  new Producto('ProPlan Gatos Adultos - 7.5kg', 52000),
+  new Producto('ProPlan Gatos Sterilized - 7.5kg', 57000),
+  new Producto('Royal Canin Gatos Cachorros - 15kg', 115000),
+  new Producto('Arena aglomerante - 4kg', 9500),
+  new Producto('Pouch Royal Canin sabor salmón', 1250)
 ];
 
 // 2
-alert('Bienvenido a la primera tienda online de productos para su gato');
+alert('Bienvenido a la primera tienda online de productos exclusivos para su gato');
 
 // 3
 function agregarAlCarrito(producto, cantidad) {
