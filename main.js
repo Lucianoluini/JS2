@@ -15,7 +15,7 @@ const productos = [
 ];
 
 // 2
-alert('Bienvenido a la primera tienda online de productos exclusivos para su gato');
+alert('Bienvenido a la primera tienda online exclusiva de productos para su gato');
 
 // 3
 function agregarAlCarrito(producto, cantidad) {
